@@ -94,11 +94,12 @@ body {
 }
 @media (max-width: 768px) {
     .content {
-        left: 0; /* Чтобы контент отобразился полностью на мобильных устройствах */
+        left: 0; 
     }
     .title {
-        font-size: 16px; /* измените значение на ваше усмотрение */
-        border-right: 2px solid paleturquoise; /* измените значение на ваше усмотрение */
+        font-size: 16px; 
+        border-right: 2px solid paleturquoise; 
       }
     
 }
+
