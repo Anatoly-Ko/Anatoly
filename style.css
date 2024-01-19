@@ -46,8 +46,8 @@ body {
     font-family: monospace;
     white-space: nowrap;
     border-right: 4px solid paleturquoise;
-    animation: printed-text 7s steps(31),
-        cursor .5s step-start infinite;
+    animation: printed-text 6.5s steps(35),
+        cursor .4s step-start infinite;
 }
 
 
@@ -94,7 +94,7 @@ body {
 }
 @media (max-width: 768px) {
     .content {
-        left: 0; /* Чтобы контент отобразился полностью на мобильных устройствах */
+        padding-left: 10px;
     }
     .title {
         font-size: 16px; 
